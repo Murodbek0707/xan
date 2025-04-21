@@ -1,0 +1,605 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+body {
+  background-color: #151515;
+}
+
+.main {
+  background: url("./images/hero-1 1.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.header ul {
+  display: flex;
+  gap: 20px;
+}
+.header ul a {
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+.header .icons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.banner {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-family: Noto Serif;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner h1 span {
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.banner a {
+  border: 2px solid #e4391c;
+  padding: 15px 25px;
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+.cards {
+  display: flex;
+}
+.cards .card {
+  width: calc(100% / 3);
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  padding: 0 50px;
+}
+.cards .card:nth-child(1) {
+  background: url("./images/feature-1 1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.cards .card:nth-child(2) {
+  background: url("./images/feature-2\ 1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.cards .card:nth-child(3) {
+  background: url("./images/feature-3\ 1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.cards h3 {
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.cards p {
+  font-family: Noto Serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cards a {
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  border: 2px solid #e4391c;
+  padding: 15px 25px;
+}
+
+.about {
+  display: flex;
+  padding: 75px 0;
+  gap: 30px;
+}
+.about .left,
+.about .right {
+  width: 50%;
+}
+.about h3 {
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.about h4 {
+  font-family: Noto Serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.about p {
+  font-family: Noto Serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.about a {
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  background-color: #e4391c;
+  padding: 15px 25px;
+}
+
+.about .left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+.about .right img{
+  width: 100%;
+}
+
+.center {
+  background-image: url("./images/classes-title-bg\ 1.jpg");
+
+}
+
+.center h2 {
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54.48px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.center p {
+  width: 50%;
+  font-family: Noto Serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27.24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.cards0 {
+  
+  display: flex;
+  justify-content: center;
+}
+
+.cards0 .card1 {
+  background-image: url("./images/class-1\ 1.png");
+  height: 480px;
+  width: calc(100% / 4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards0 a {
+  border: 2px solid #e4391c;
+  padding: 15px 10px;
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23.15px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.cards0 .card2 {
+  background-image: url("./images/class-2\ 1.png");
+  height: 480px;
+  width: calc(100% / 4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards0 a {
+  border: 2px solid #e4391c;
+  padding: 15px 20px;
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23.15px;
+  color: #ffffff;
+}
+
+.cards0 .card3 {
+  background-image: url("./images/class-3\ 1\ \(1\).png");
+  height: 480px;
+  width: calc(100% / 4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards0 a {
+  border: 2px solid #e4391c;
+  padding: 15px 20px;
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23.15px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.cards0 .card4 {
+  background-image: url("./images/class-4\ 1.png");
+  height: 480px;
+  width: calc(100% / 4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards0 a {
+  border: 2px solid #e4391c;
+  padding: 15px 20px;
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23.15px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.cards0 h1 {
+  font-family: Noto Serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27.24px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.cards0 p {
+  font-family: Noto Serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24.52px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.cards0  a, p, h1  {
+  width: 60%;
+}
+
+.table {
+  padding: 75px 0;
+}
+
+.table h3 {
+  font-family: Noto Serif;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.table ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px 0;
+}
+
+.table li {
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+
+}
+
+.table li:hover {
+  color: #CA351C;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+table {
+  background-color: #212529;
+  width: 100%;
+}
+
+table th {
+  padding: 25px 0;
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+table td:nth-child(1) {
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  padding: 40px 40px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  border: 1px solid #151515;
+  font-family: Noto Serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  padding: 40px 5px;
+  text-align: center;
+}
+
+table span {
+  color: #CA351C;
+}
+.choose{
+  padding: 70px 0;
+}
+
+.choose h3{
+  font-family: Noto Serif;
+font-weight: 800;
+font-size: 45px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #fff;
+
+}
+
+.choose .topP{
+  font-family: Noto Serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #fff;
+margin: 30px 0;
+}
+
+.choose .wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.choose .box{
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.choose h4{
+  font-family: Noto Serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #fff;
+margin: 10px 0;
+}
+.choose .box p{
+  font-family: Noto Serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF80;
+}
+
+.video {
+  background-image: url("./images/video-bg\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+}
+
+.video h1 {
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65.38px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+.video {
+  position: relative;
+}
+
+.video img {
+  position: absolute;
+    transform: translateX(+890%) translateY(+100%);
+    text-align: center;
+}
+
+@media (max-width: 1050px) {
+  .header {
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  .table .in{
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 800px) {
+  .cards {
+    flex-direction: column;
+  }
+  .cards .card {
+    width: 100%;
+    padding: 0;
+  }
+
+  .about{
+    flex-direction: column-reverse;
+  }
+  .about .left, .about .right{
+    width: 100%;
+  }
+
+  .table ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .table h3{
+    font-size: 30px;
+  }
+  .table li{
+    font-size: 16px;
+  }
+  table tr th, table tr td{
+    font-size: 16px;
+    width: 400px ;
+    padding: 25px ;
+  }
+
+  .choose .box{
+    width: 50%;
+  }
+}
+
+@media (max-width: 550px) {
+  .header ul,
+  .header .icons {
+    display: none;
+  }
+
+  .center h2{
+    text-align: center;
+  }
+
+  .center p {
+    width: 100%;
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width:500px) {
+    .choose .box{
+      width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+  .banner h1,
+  .banner h1 span {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .about h3{
+    font-size: 28px;
+  }
+  .about h4{
+    font-size: 18px;
+  }
+
+  .about p{
+    font-size: 16px;
+  }
+} 
